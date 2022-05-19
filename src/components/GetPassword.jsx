@@ -1,4 +1,4 @@
-import getPassword from '../getPassword';
+import getPassword from '../GetPassword';
 
 export default function ButtonPassword() {
     return (
