@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import RequestIdentity from './components/RequestIdentity.jsx';
+import React from 'react';
+import RequestIdentity from './components/RequestIdentity';
 import './App.css';
 
 export default function App() {
