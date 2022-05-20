@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from 'react';
 
 // https://dog.ceo/api/breeds/image/random
@@ -6,13 +5,13 @@ import React, { useEffect, useState } from 'react';
 
 export default function RequestIdentity() {
     const [answer, setAnswer] = useState();
-    const [, setError] = useState('');
+    const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         setIsLoading(true);
         fetch("https://dog.ceo/api/breeds/image/random")
-            .then((response) => response.json())
+            .then((response) => { return response.json() })
             .then((data) => {
                 setAnswer(data.message);
                 setIsLoading(false);
@@ -27,3 +26,4 @@ export default function RequestIdentity() {
         </div>
     )
 }
+
