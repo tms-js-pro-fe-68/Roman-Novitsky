@@ -1,6 +1,5 @@
 {
-  "name": "roman-novitsky",
-  "private": true,
+  "name": "alesya-stupeneva",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -8,22 +7,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "formik": "^2.2.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@vitejs/plugin-react": "^1.3.0",
-    "eslint": "^8.15.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0",
-    "prettier": "^2.6.2",
-    "vite": "^2.9.9"
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.8.0"
   }
 }
-
